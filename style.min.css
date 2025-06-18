@@ -1,0 +1,217 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+.site-header {
+  background: #f0f8ff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: #e6f2ff;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* About Section */
+.about {
+  background: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Features Section */
+.features {
+  background: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature-item {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 2rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  background: #fff;
+  padding: 4rem 0;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+/* Pricing */
+.pricing {
+  background: #f0f8ff;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.plan {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 280px;
+}
+
+.plan h3 {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.plan ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+/* Contact */
+.contact {
+  background: #fff;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Footer */
+.site-footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.site-footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
